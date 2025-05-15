@@ -1,0 +1,57 @@
+/* Allgemein */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Header mit Logo */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 50px;
+  transition: opacity 0.5s ease-out;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+/* Optional: Logo ausfaden lassen nach z. B. 2 Sekunden */
+.logo.fade-out {
+  opacity: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 0.9em;
+}
+
+/* Section */
+.section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
