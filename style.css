@@ -155,6 +155,10 @@ footer {
   background: #e0f7fa;
 }
 
+a:visited {
+  color: #007bff; /* gleiche Farbe wie :link */
+}
+
 /* ---------------------- */
 /* 📱 Responsive Styles   */
 /* ---------------------- */
