@@ -123,17 +123,17 @@ footer {
   margin-top: 50px;
 }
 
-a {
+a.footer {
   color: #007bff;
   text-decoration: none;
 }
 
-a:hover {
+a.footer:hover {
   text-decoration: underline;
 	color: #0056b3;
 }
 
-a:visited {
+a.footer:visited {
   color: #007bff; /* gleiche Farbe wie :link */
 }
 
